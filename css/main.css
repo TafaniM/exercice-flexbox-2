@@ -90,3 +90,16 @@ html {
 .section-2 .box {
   width: 50%;
 }
+/* section 3 */
+
+.section-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--beige);
+}
+
+.section-3 .box {
+  width: 5%;
+  margin: 0px 29px;
+}
