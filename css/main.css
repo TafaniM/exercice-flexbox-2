@@ -90,6 +90,7 @@ html {
 .section-2 .box {
   width: 50%;
 }
+
 /* section 3 */
 
 .section-3 {
@@ -102,4 +103,18 @@ html {
 .section-3 .box {
   width: 5%;
   margin: 0px 29px;
+}
+
+/* section 4 */
+
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--beige);
+}
+
+.section-4 .box {
+  width: calc(50% - 15px);
 }
