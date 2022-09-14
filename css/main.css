@@ -46,3 +46,34 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  color: var(--black);
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.31px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.section {
+  padding: 15px 0px;
+  margin: 15px;
+}
+
+.box {
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+}
+
+/* section 1 */
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--beige);
+}
+
+.section-1 .box {
+  width: 25%;
+}
